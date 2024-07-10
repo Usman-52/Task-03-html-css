@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 1000px;
+    height: 600px;
+     background-color:antiquewhite; 
+    /* color: rgb(220, 218, 218); */
+    border: 1px solid wheat;
+    margin:auto;
+    justify-content: start;
+    flex-wrap:wrap;
+    margin-top: 10%;
+    
+    
+
+}
+
+
+
+.container1 {
+    background-image: url(/side.png);
+    height: 600px;
+    width: 500px;
+    background-size: cover;
+    align-content:center;
+    font-size:75px;
+    font-weight: bolder;
+    color:aliceblue;
+    
+}
+
+
+.container1 > p {
+    margin-left: 80px;
+}
+
+.massage {
+    margin-top: 7%;
+    margin-left: 7%;
+    font-size: 20px;
+}
+.massage > p {
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.input {
+    margin-top: 7%;
+}
+
+.input > label {
+    font-size: 20px;
+}
+
+#UserName-password {
+    width: 380px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.checkBox {
+    margin-top: 5%;
+}
+
+.checkBox > input {
+    font-size: 100px;
+}
+
+.checkBox > p {
+    display: inline-block;
+    padding-right: 90px;
+}
+
+.btn > button {
+    margin-top: 7%;
+    width: 350px;
+    height: 45px;
+    border-radius: 15px;
+    margin-left: 5%;
+    background-color:rgb(71, 49, 214);
+    color:aliceblue;
+    font-size: 30px;
+}
+
+.Signup > p {
+    display: inline-block;
+    margin-top: 5%;
+
+}
+
+
+
+
