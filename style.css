@@ -77,10 +77,9 @@
 
 .btn > button {
     margin-top: 7%;
-    width: 350px;
+    width: 385px;
     height: 45px;
     border-radius: 15px;
-    margin-left: 5%;
     background-color:rgb(71, 49, 214);
     color:aliceblue;
     font-size: 30px;
@@ -88,7 +87,7 @@
 
 .Signup > p {
     display: inline-block;
-    margin-top: 5%;
+    margin-top: 7%;
 
 }
 
