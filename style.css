@@ -22,7 +22,7 @@
 
 
 .container1 {
-    background-image: url(/side.png);
+    background-image: url(./side.png);
     height: 600px;
     width: 500px;
     background-size: cover;
