@@ -15,7 +15,7 @@
     align-items: center;
     flex-wrap:wrap;
     margin-top: 10%;
-    box-shadow: 10px 10px 10px  bisque;
+    box-shadow: 10px 10px 5px  bisque;
 } 
 .container1 {
     background-image: url(./side.png);
@@ -29,7 +29,6 @@
     
     
 }
-
 
 .container1 > p {
     margin-left: 80px;
@@ -57,16 +56,23 @@
 #UserName-password {
     width: 380px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 3%;
+    padding-left: 3%;
+    border: none;
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    
 }
 
 .checkBox {
     margin-top: 5%;
+    text-decoration: none;
 }
 
 .checkBox > input {
     font-size: 100px;
+
 }
 
 .checkBox > p {
@@ -87,9 +93,11 @@
 .Signup > p {
     display: inline-block;
     margin-top: 7%;
-
 }
 
+.Signup a {
+    text-decoration: none;
+}
 
 
 
